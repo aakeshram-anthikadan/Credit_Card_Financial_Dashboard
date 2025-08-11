@@ -24,6 +24,7 @@ DAX → Calculated fields
  'public cust_detail'[customer_age] >= 60, "60+",
  "unknown"
  )
+ 
  IncomeGroup = SWITCH(
  TRUE(),
  'public cust_detail'[income] < 35000, "Low",
